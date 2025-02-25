@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Comp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#C80000"
+            android:text="@string/electrical_engineering"
+            android:textAllCaps="true"
+            tools:ignore="AllCaps,RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:text="@string/elect1"
+                tools:src="@tools:sample/avatars"
+                tools:targetApi="o" />
+
+
+            <ImageView
+                android:contentDescription="@string/todo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                app:srcCompat="@drawable/elect"
+                tools:src="@tools:sample/backgrounds/scenic" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/elec3"
+            tools:targetApi="o" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/elect2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/elec2"
+            tools:targetApi="o" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:background="#14352D"
+            android:fontFamily="serif"
+            android:textColor="#FFFFFF"
+            android:text="@string/our_teachers"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/teachers"
+            tools:targetApi="o" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAllCaps="false"
+            android:text="@string/_1_mr_rahul"
+            tools:ignore="RtlSymmetry" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_2_ravi_kalra"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_3_sanpreet_kaur"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_4_alka_kalra"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_5_mr_sandeep_kumar"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+</ScrollView>

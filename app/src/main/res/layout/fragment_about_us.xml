@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.AboutUs">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="ExtraText,ScrollViewSize,UseCompoundDrawables">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="11sp"
+        android:justificationMode="inter_word"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:textColor="@color/black"
+        android:text="@string/rajiv_gandhi_govt_polytechnic_narwana_was_established_in_2007_with_the_aim_to_enhance_employbility_of_the_youth_by_equipping_them_with_latest_technical_skills_for_suitable_at_the_main_national_highway_nh_71_at_patiala_road_with_acquiring_area_of_10_11_acres_near_iti_campus_the_campus_is_laid_out_with_ambient_lush_green_infrastructure_teaching_block_sports_ground_and_fully_wi_fi_campus_the_institute_has_spacious_and_well_ventialated_class_rooms_labs_equipped_with_latest_and_modern_machinery_to_impact_practical_knowledge_to_the_students_and_well_stocked_library_and_e_library"
+        tools:ignore="RtlSymmetry,UnusedAttribute" />
+
+    <ImageView
+        android:contentDescription="@string/todo"
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/rggp"
+        android:layout_height="300dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:paddingStart="5dp"
+            android:justificationMode="inter_word"
+            android:paddingEnd="5dp"
+            android:textColor="@color/black"
+            android:text="@string/the_institute_started_as_a_center_of_excellence_in_textiles_running_with_textile_technology_branch_with_intake_of_60_seats_guest_class_has_started_at_govt_polytechnic_hisar_from_the_session_2007_08_the_classes_are_running_in_its_own_campus_from_academic_session_2009_10_with_three_textile_branches_with_an_intake_of_60_seats"
+            tools:ignore="RtlSymmetry,UnusedAttribute" />
+
+        <include layout="@layout/activity_main5"/>
+
+    </LinearLayout>
+
+</ScrollView>

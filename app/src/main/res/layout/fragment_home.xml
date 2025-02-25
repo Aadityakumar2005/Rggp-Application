@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="ExtraText,ScrollViewSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/logo"
+                tools:src="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:paddingTop="10dp"
+                    android:textColor="#C80000"
+                    android:text="@string/rajiv_gandhi_govt_polytechnic_narwana"
+                    tools:ignore="NestedWeights" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:fontFamily="serif"
+                    android:layout_marginBottom="30dp"
+                    android:textStyle="bold"
+                    android:textSize="11sp"
+                    android:textColor="@color/black"
+                    android:text="@string/approved_by_aicte_new_delhi_amp_govt_of_haryana_affiliated_to_hsbte_panchkula"
+                    android:textAllCaps="true"
+                    tools:ignore="AllCaps" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:contentDescription="@string/todo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/g20"
+                tools:src="@tools:sample/backgrounds/scenic" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="#C80000"
+            android:fontFamily="serif"
+            android:text="@string/principle_message"
+            android:textAllCaps="true"
+            tools:ignore="AllCaps,RtlSymmetry" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:fontFamily="serif"
+            android:text="@string/it_s_an_immense_pleasure_to_welcome_you_all_to_rajiv_gandhi_govt_polytechnic_narwana_we_aim_to_provide_quality_technical_educationwith_great_emphasis_on_human_values_technical_professional_entrepreneurial_skills_for_sustainable_growth_of_society_and_nation_as_a_whole_we_believe_that_the_purpose_of_education_is_to_facillitate_the_development_of_clarity_of_aspirations_and_adequate_competence_to_actualize_it_since_its_establishment_in_2009_the_institute_has_made_its_presence_strongly_felt_in_the_technical_education_community_not_only_in_the_region_but_at_state_level_too_a_range_of_achievement_in_academics_in_all_six_branches_is_attained_by_joint_efforts_of_all_stake_holders_our_very_young_alumni_continue_to_keep_the_institute_name_high"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry"
+            tools:targetApi="o" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/principal"
+            tools:ignore="InefficientWeight"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textSize="11sp"
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:text="@string/this_institute_is_well_equipped_with_laboratory_workshop_rich_collectionof_book_resources_in_library_computing_facility_internet_facilityand_industry_institute_interaction_facilities_which_enriches_the_process_of_learning_our_teaching_learning_process_is_based_on_practical_inclusive_and_motivational_approach_in_addition_to_excellent_teaching_the_faculty_members_are_actively_involved_in_over_all_training_and_placement_activities_of_the_students_and_monitoring_them_about_their_carrier_path_and_overall_development_our_faculty_is_also_actively_attending_participating_seminar_workshops_training_conferencing_conducted_by_nitttr_aicte_and_other_eminent_institute_time_to_time_enrich_their_knowledge_and_to_update_with_latest_technology_with_the_guidance_of_seniors_supports_from_colleagues_and_decoration_of_diligent_workforce_i_wish_and_hope_this_premier_institute_to_scale_higher_heights"
+            tools:ignore="RtlSymmetry,UnusedAttribute" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:paddingStart="5dp"
+            android:textColor="#C80000"
+            android:text="@string/thank_you"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="#C80000"
+            android:text="@string/with_warm_regard"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:paddingStart="5dp"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="#C80000"
+            android:text="@string/mr_jaswant_singh"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:textSize="11sp"
+            android:textColor="#C80000"
+            android:text="@string/principal"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:background="#14352D"
+            android:fontFamily="serif"
+            android:textColor="#FFFFFF"
+            android:text="@string/our_mission"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:fontFamily="serif"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:text="@string/_1_to_excel_student_centred_learning_environment"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:fontFamily="serif"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:text="@string/_2_to_develop_professional_skills_through_industry_academic_interface"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:fontFamily="serif"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:text="@string/_3_to_enhance_the_teaching_learning_process_through_digital_technologies"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="11sp"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:text="@string/_4_to_inculcate_ethical_values_entrepreneurial_skills_and_teamwork_spirit"
+            tools:ignore="RtlSymmetry" />
+        <ImageView
+            android:contentDescription="@string/todo"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/mission"
+            tools:src="@tools:sample/avatars"
+            android:layout_height="100dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:background="#14352D"
+            android:fontFamily="serif"
+            android:textColor="#FFFFFF"
+            android:text="@string/our_vision"
+            tools:ignore="RtlSymmetry" />
+        <ImageView
+            android:contentDescription="@string/todo"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/vision"
+            android:layout_height="100dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:fontFamily="serif"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:text="@string/to_transform_younger_minds_into_valuable_resources_with_technical_professional_and_entrepreneurial_skills_for_sustainable_growth_of_society_and_nation_as_a_whole"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:background="#14352D"
+            android:textColor="#FFFFFF"
+            android:text="@string/our_values"
+            tools:ignore="RtlSymmetry" />
+        <ImageView
+            android:contentDescription="@string/todo"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/values"
+            android:layout_height="100dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:text="@string/one_of_the_most_crucial_elements_in_out_lives_is_self_comfidence_without_it_we_may_find_it_difficult_to_achieve_anything_it_s_vital_not_to_lose_our_self_confidence_when_facing_challenges_or_tough_times_everyone_goes_through_them_managing_our_time_wisely_is_also_important_maintainig_a_good_character_is_essential_regardless_of_our_action_moving_forward_with_this_mindset_is_key_we_should_believe_that_nothing_is_impossible_this_belief_empowers_us_to_tackle_challenging_tasks_effortlessly_life_is_a_precious_gift_and_we_should_cheris_it_going_forward_with_a_good_character_and_a_positive_attitude_is_essential_even_in_challenging_times_staying_positive_is_crucial_remember_a_positive_attitude_is_the_most_potent_tool_for_achieving_success_in_life"
+            tools:ignore="RtlSymmetry,UnusedAttribute" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#00B0FF"
+            android:paddingTop="5dp"
+            android:fontFamily="serif"
+            android:text="@string/queries_for_admissions_please_contact"
+            android:textAlignment="center"
+            android:textColor="#C3FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00B0FF"
+            android:text="@string/_91_92156_20009"
+            android:textAlignment="center"
+            android:textColor="#C3FFFFFF"
+            android:textSize="15sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9100"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="@string/dedication_to_education_is_our_strength"
+            android:textAlignment="center"
+            android:textColor="#C3FFFFFF"
+            android:fontFamily="serif"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

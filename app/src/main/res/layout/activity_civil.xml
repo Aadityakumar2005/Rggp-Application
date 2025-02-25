@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Civil">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#C80000"
+            android:text="@string/civil_engineering"
+            android:textAllCaps="true"
+            tools:ignore="AllCaps,RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:text="@string/civil_engineering_is_a_cornerstone_of_modern_infrastructure_focusing_on_the_design_construction_and_maintenance_of_essential_structures_and_systems_that_support_society_this_versatile_discipline_encompasses_various_specialties_including_structural_engineering_transportation_geotechnical_engineering_environmental_engineering_and_urban_planning"
+                tools:src="@tools:sample/avatars"
+                tools:targetApi="o" />
+
+
+            <ImageView
+                android:contentDescription="@string/todo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                app:srcCompat="@drawable/civil2"
+                tools:src="@tools:sample/backgrounds/scenic" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/civil_engineers_design_and_build_roads_bridges_dams_buildings_water_treatment_systems_and_other_critical_infrastructure_they_ensure_these_structures_are_safe_sustainable_and_efficient_taking_into_account_factors_such_as_materials_environmental_impact_and_cost_their_work_often_involves_solving_complex_challenges_such_as_earthquake_resistant_designs_or_innovative_flood_control_systems"
+            tools:targetApi="o" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/civil"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/with_a_blend_of_creativity_technical_expertise_and_problem_solving_skills_civil_engineers_play_a_vital_role_in_shaping_the_physical_environment_and_addressing_global_challenges_like_urbanization_climate_change_and_resource_management_their_contributions_enhance_quality_of_life_promote_economic_growth_and_ensure_a_sustainable_future_for_communities_worldwide"
+            tools:targetApi="o" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:background="#14352D"
+            android:fontFamily="serif"
+            android:textColor="#FFFFFF"
+            android:text="@string/our_teachers"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/teachers"
+            tools:targetApi="o" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAllCaps="false"
+            android:text="@string/_1_mr_radheshyam"
+            tools:ignore="RtlSymmetry" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_2_smt_manju"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_3_mr_surender"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_4_mr_parveen_kumar"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+
+</ScrollView>

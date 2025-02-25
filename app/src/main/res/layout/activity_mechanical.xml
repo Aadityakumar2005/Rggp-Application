@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Comp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#C80000"
+            android:text="@string/mechanical_engineering"
+            android:textAllCaps="true"
+            tools:ignore="AllCaps,RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:text="@string/mechanical_engineering_is_a_broad_and_dynamic_discipline_that_applies_principles_of_physics_mathematics_and_material_science_to_design_analyze_manufacture_and_maintain_mechanical_systems_it_is_one_of_the_oldest_and_most_versatile_branches_of_engineering_driving_innovation_in_industries_ranging_from_automotive_and_aerospace_to_energy_robotics_and_healthcare"
+                tools:src="@tools:sample/avatars"
+                tools:targetApi="o" />
+
+
+            <ImageView
+                android:contentDescription="@string/todo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                app:srcCompat="@drawable/mech"
+                tools:src="@tools:sample/backgrounds/scenic" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/mechanical_engineers_work_on_a_wide_array_of_projects_including_developing_engines_machines_tools_and_thermal_systems_they_leverage_advanced_technologies_such_as_computer_aided_design_cad_simulation_and_automation_to_create_efficient_and_sustainable_solutions_the_field_also_encompasses_emerging_areas_like_nanotechnology_renewable_energy_systems_and_smart_materials"
+            tools:targetApi="o" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mech2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/with_a_focus_on_problem_solving_and_innovation_mechanical_engineering_addresses_real_world_challenges_such_as_energy_efficiency_environmental_sustainability_and_technological_advancement_mechanical_engineers_play_a_vital_role_in_improving_the_quality_of_life_contributing_to_the_design_and_production_of_systems_that_power_move_and_sustain_the_modern_world"
+            tools:targetApi="o" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:background="#14352D"
+            android:fontFamily="serif"
+            android:textColor="#FFFFFF"
+            android:text="@string/our_teachers"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/teachers"
+            tools:targetApi="o" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAllCaps="false"
+            android:text="@string/_1_mr_anil_monga_hod"
+            tools:ignore="RtlSymmetry" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_2_mr_jaswant_singh"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_3_mr_vinod_kumar"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_4_mr_mohinderpal"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+</ScrollView>

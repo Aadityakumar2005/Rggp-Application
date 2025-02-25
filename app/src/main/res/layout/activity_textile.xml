@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Comp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="#C80000"
+            android:text="@string/textile_engineering"
+            android:textAllCaps="true"
+            tools:ignore="AllCaps,RtlSymmetry" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:justificationMode="inter_word"
+                android:text="@string/textile_engineering_is_a_specialized_field_that_combines_principles_of_engineering_chemistry_and_material_science_to_design_develop_and_optimize_textile_products_and_manufacturing_processes_it_focuses_on_the_creation_of_fibers_fabrics_and_garments_as_well_as_advanced_textile_applications_in_industries_like_automotive_healthcare_and_aerospace"
+                tools:src="@tools:sample/avatars"
+                tools:targetApi="o" />
+
+
+            <ImageView
+                android:contentDescription="@string/todo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                app:srcCompat="@drawable/text"
+                tools:src="@tools:sample/backgrounds/scenic" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/textile_engineers_work_with_natural_and_synthetic_fibers_to_develop_materials_with_desired_properties_such_as_durability_elasticity_and_thermal_resistance_they_also_innovate_in_areas_like_smart_textiles_which_integrate_electronics_and_sensors_and_sustainable_textiles_which_use_eco_friendly_materials_and_processes_to_reduce_environmental_impact"
+            tools:targetApi="o" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/text2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/this_field_encompasses_various_aspects_including_yarn_production_fabric_weaving_and_knitting_dyeing_finishing_and_quality_control_textile_engineers_play_a_crucial_role_in_advancing_technology_for_functional_clothing_protective_gear_and_technical_fabrics_their_work_enhances_everyday_products_and_drives_innovation_across_industries_making_textiles_both_practical_and_cutting_edge"
+            tools:targetApi="o" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            android:paddingStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:background="#14352D"
+            android:fontFamily="serif"
+            android:textColor="#FFFFFF"
+            android:text="@string/our_teachers"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:fontFamily="serif"
+            android:paddingEnd="5dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:text="@string/teachers"
+            tools:targetApi="o" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textAllCaps="false"
+            android:text="@string/_1_mr_sunil_sheoran"
+            tools:ignore="RtlSymmetry" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_2_mr_rajesh_saini"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_3_ranbir_kundu"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/_4_mr_jagbir"
+            android:textAllCaps="false"
+            tools:ignore="RtlSymmetry" />
+
+    </LinearLayout>
+</ScrollView>

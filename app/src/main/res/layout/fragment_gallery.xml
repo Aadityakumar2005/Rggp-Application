@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GalleryFragment"
+    tools:ignore="InvalidId,SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/college_staff"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="#FF3D00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/g1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/g18" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/g23" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/g27" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/g35" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/g36" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/head_of_departments"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:textColor="#FF3D00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/p"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitXY"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/p" />
+
+            <ImageButton
+                android:id="@+id/r"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_marginEnd="5dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/r" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/singla"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitXY"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/si8ngl" />
+
+            <ImageButton
+                android:id="@+id/a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_marginEnd="5dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/a" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/s1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitXY"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/s" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FF3D00"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ayush"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/todo"
+                android:scaleType="fitXY"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/aysh" />
+
+            <ImageButton
+                android:id="@+id/aadi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/brdrs" />
+
+            <ImageButton
+                android:id="@+id/aaditya"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="5dp"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/cycle" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ExtraText">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/s_no"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/course"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/dur"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/yos"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/intake"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/textile_technology"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2007_08"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_height="19dp"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/textile_chem"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2009_10"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/textile_process"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2009_10"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView android:layout_weight="1" />
+
+            <TextView android:layout_weight="1" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/total"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="VisualLintBounds" />
+
+            <TextView android:layout_weight="1" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_180"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="VisualLintBounds" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/from_the_session_2010_11_one_new_diploma_course_textile_design_has_been_introduced_in_place_of_textile_processing_with_the_intake_of_120_seats_in_each_branch"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        tools:ignore="RtlSymmetry,UnusedAttribute,VisualLintOverlap,VisualLintLongText"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="ExtraText">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/s_no"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/course"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/dur"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/yos"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/intake"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/textile_technology"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2007_08"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_120"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_height="19dp"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/textile_chem"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2009_10"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_120"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/textile_design"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2010_11"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_120"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView android:layout_weight="1" />
+
+            <TextView android:layout_weight="1" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/total"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="VisualLintBounds" />
+
+            <TextView android:layout_weight="1" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_360"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="VisualLintBounds" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/now_at_the_present_academic_session_2011_12_five_new_diploma_courses_have_been_introduced_with_the_total_intake_of_540_in_the_institute_the_detailed_of_branches_intake_are_given_below"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2"
+        tools:ignore="RtlSymmetry,UnusedAttribute,VisualLintLongText"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:ignore="ExtraText">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/s_no"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/course"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/dur"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/yos"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/intake"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/textile_technology"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2007_08"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_120"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="TooManyViews" />
+
+            <TextView
+                android:layout_height="19dp"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/textile_chem"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2009_10"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/textile_design"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2010_11"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/mechanical_engg"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2011_12"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/civil_engg"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2011_12"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/electrical_engg"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2011_12"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_7"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/garments_technology"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2011_12"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_8"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/knitting_technology"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2011_12"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView android:layout_weight="1" />
+
+            <TextView android:layout_weight="1" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/total"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="VisualLintBounds" />
+
+            <TextView android:layout_weight="1" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_540"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="VisualLintBounds" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/institute_running_6_diploma_courses_with_approximately_1000_students_on_roll_under_the_guidance_of_matured_dedicated_experienced_and_highly_qualified_staff"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout3"
+        tools:ignore="RtlSymmetry,UnusedAttribute,VisualLintLongText"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <TableLayout
+        android:id="@+id/tableLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="ExtraText">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/s_no"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/course"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/dur"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:background="#87CEEB"
+                android:text="@string/intake"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_1"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/computer_enggi"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_2"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_height="19dp"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/civil_engg"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/electrical_engg"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_4"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/mechanical_engg"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_5"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/textile_design"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_6"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:text="@string/textile_technology"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_3_years"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="@string/_60"
+                android:textColor="@color/black"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:justificationMode="inter_word"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:text="@string/above_six_engineering_courses_are_running_till_date_with_the_same_intake"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout4"
+        tools:ignore="RtlSymmetry,UnusedAttribute,VisualLintLongText"
+        tools:layout_editor_absoluteX="27dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
